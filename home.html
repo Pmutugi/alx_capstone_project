@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Book Library</title>
+</head>
+<body>
+    <!-- Create a div that will contain the form for the user to key in the books ,  -->
+    <div class="container">
+        <h1>Personal Book Library</h1>
+        <form id="book-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="genre" placeholder="Genre" required>
+            <input type="number" id="progress" placeholder="Progress (%)" required>
+            <input type="submit" value="Add Book">
+        </form>
+        <!-- create a search bar place where users can search the books accoring to the values keyed in -->
+        <input type="text" id="search" placeholder="Search...">
+        <!-- This is am empty unordered list , using Javascript, I will append my books here  -->
+        <ul class="book-list" id="book-list">
+
+        </ul>
+    </div>
+
+   <script src="app.js"></script> 
+</body>
+</html>
