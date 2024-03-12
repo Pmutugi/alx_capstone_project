@@ -34,7 +34,19 @@ function addBook(event) {
     library.push(book);
     renderBooks();
     bookForm.reset();
+    // Save the updated library array to local storage
+    saveLibraryToLocalStorage();
+
 }
+//function to save the added book to a local storage
+function saveLibraryToLocalStorage() {
+    // Convert the library array to a JSON string
+    const libraryJSON = JSON.stringify(library);
+
+    // Save the JSON string to local storage under the key 'library'
+    localStorage.setItem('library', libraryJSON);
+}
+
 // Function to render all books in the library
 function renderBooks() {
     // Clear the existing book list
