@@ -35,3 +35,19 @@ function addBook(event) {
     renderBooks();
     bookForm.reset();
 }
+// Function to render all books in the library
+function renderBooks() {
+    // Clear the existing book list
+    bookList.innerHTML = '';
+
+    // Iterate over each book in the library and Create a new list item element
+    library.forEach(book => {
+        const li = document.createElement('li');
+        li.classList.add('book-item');
+        // Populate the list item with book details
+        li.innerHTML = `<strong>${book.title}</strong> by ${book.author} (${book.genre}) - Progress: ${book.progress}%`;
+        // Append the list item to the book list
+        bookList.appendChild(li);
+    });
+}
+
