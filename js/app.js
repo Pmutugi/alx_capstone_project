@@ -39,7 +39,6 @@ function addBook(event) {
 function renderBooks() {
     // Clear the existing book list
     bookList.innerHTML = '';
-
     // Iterate over each book in the library and Create a new list item element
     library.forEach(book => {
         const li = document.createElement('li');
@@ -49,5 +48,18 @@ function renderBooks() {
         // Append the list item to the book list
         bookList.appendChild(li);
     });
+}
+//function to filter books:
+function filterBooks() {
+    //convert the search term to lower case
+    const searchTerm = searchInput.value.toLowerCase();
+    //filter the library based on the searchterm lowercase 
+    const filteredBooks = library.filter(book =>
+        book.title.toLowerCase().includes(searchTerm) ||
+        book.author.toLowerCase().includes(searchTerm) ||
+        book.genre.toLowerCase().includes(searchTerm)
+    );
+    // render the filtered books 
+    renderFilteredBooks(filteredBooks);
 }
 
