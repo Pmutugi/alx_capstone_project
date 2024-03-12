@@ -62,4 +62,17 @@ function filterBooks() {
     // render the filtered books 
     renderFilteredBooks(filteredBooks);
 }
-
+//the filtered books to be rendered on the DOM 
+function renderFilteredBooks(books) {
+    //clear first the existing booklist
+    bookList.innerHTML = '';
+    //ilterate over each filtered book and create a list
+    books.forEach(book => {
+        const li = document.createElement('li');
+        li.classList.add('book-item');
+        //render the filtered books 
+        li.innerHTML = `<strong>${book.title}</strong> by ${book.author} (${book.genre}) - Progress: ${book.progress}%`;
+        // append them on the list
+        bookList.appendChild(li);
+    });
+}
