@@ -24,11 +24,11 @@ In the future, we plan to implement the following enhancements to the Personal B
 
 * User Authentication: Add user authentication functionality to allow users to create accounts and securely manage their book libraries.
 * Sorting Options: Incorporate sorting options to enable users to sort their book collection by various criteria such as title, author, or publication date.
-* Mobile Responsiveness: Enhance the application's responsiveness to ensure optimal viewing and usability on mobile devices.
 * Data Persistence: Implement backend storage solutions to persist user data and enable features like saving book progress and syncing across devices.
 # link To Demos and Flowchart
 Below is a link to a flowchart https://github.com/Pmutugi/alx_capstone_project/blob/main/assests/images/Booklib%20flowchart.drawio.png
 
+Below is the link to a Live Demo of the application: https://drive.google.com/file/d/1MwE9Z2YM1TFYCYOB3aL5y756NsBfiydB/view?usp=sharing
 
 # Contact Information:
 For any inquiries or feedback regarding the Personal Book Library Web Application, please feel free to contact:
