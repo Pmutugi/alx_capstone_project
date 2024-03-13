@@ -1,6 +1,7 @@
 # Personal Book Library Web Application
 
-## Project Overview:##
+## Project Overview:
+
 The **Personal Book Library Web Application** is designed to help users manage their personal book collections effectively. It provides a platform for users to add, track reading progress, and search/filter books based on various criteria such as author, genre, or title. 
 The project aims to solve the problem of organizing and tracking books in a user-friendly manner, bringing value to book enthusiasts by offering a convenient tool for managing their reading materials.
 
@@ -25,11 +26,14 @@ In the future, we plan to implement the following enhancements to the Personal B
 * Sorting Options: Incorporate sorting options to enable users to sort their book collection by various criteria such as title, author, or publication date.
 * Mobile Responsiveness: Enhance the application's responsiveness to ensure optimal viewing and usability on mobile devices.
 * Data Persistence: Implement backend storage solutions to persist user data and enable features like saving book progress and syncing across devices.
+# link To Demos and Flowchart
+Below is a link to a flowchart https://github.com/Pmutugi/alx_capstone_project/blob/main/assests/images/Booklib%20flowchart.drawio.png
 
-## Contact Information:
+
+# Contact Information:
 For any inquiries or feedback regarding the Personal Book Library Web Application, please feel free to contact:
 
-### Phillip Mutugi ###
+### Phillip Mutugi 
 
 Email: spmutugi@gmail.com
 
