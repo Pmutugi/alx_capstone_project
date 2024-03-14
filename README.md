@@ -26,6 +26,8 @@ In the future, we plan to implement the following enhancements to the Personal B
 * Sorting Options: Incorporate sorting options to enable users to sort their book collection by various criteria such as title, author, or publication date.
 * Data Persistence: Implement backend storage solutions to persist user data and enable features like saving book progress and syncing across devices.
 # link To Demos and Flowchart
+Below is a flowchart of the book library link : https://github.com/Pmutugi/alx_capstone_project/blob/main/assests/images/Booklib%20flowchart.drawio.png
+
 Below is a link to a flowchart https://github.com/Pmutugi/alx_capstone_project/blob/main/assests/images/Booklib%20flowchart.drawio.png
 
 Below is the link to a Live Demo of the application: https://drive.google.com/file/d/1MwE9Z2YM1TFYCYOB3aL5y756NsBfiydB/view?usp=sharing
